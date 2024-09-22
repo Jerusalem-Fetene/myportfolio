@@ -63,6 +63,17 @@
                 /*filter: blur(2px);
                 /* -webkit-filter: blur(8px); -->    */
             }
+            .column {
+                float: left;
+                width: 50%;
+              }
+              
+              /* Clear floats after the columns */
+              .row:after {
+                content: "";
+                display: table;
+                clear: both;
+              }
         </style>
     </header>
     <!-- End header -->
@@ -113,6 +124,8 @@ I enrolled as a graduate assistant at Ambo University. Within a short period, I 
    and providing training to underprivileged communities on basic computer literacy. In addition, I got certified in professional 
    certificates after tedious and hard commitment by:
     <ol style="1">
+        <div class="row"> 
+            <div class="column">
         <li>Machine Learning and Feature Engineering</li>
         <li> Android Developers Fundamental</li>
         <li>  Natural Language Processing</li>
@@ -124,15 +137,20 @@ I enrolled as a graduate assistant at Ambo University. Within a short period, I 
         <li>Transfer Learning</li>
         <li>Financial Management Essentials</li>
         <li>Software Development Approaches</li>
-        <li>Network Security</li>
-        <li>Information Security</li>
-        <li>Scientific Paper Writing</li>
-        <li>Vocational Orientation in STEM Teaching</li>
-        <li> Database Development Life Cycle</li>
-        <li>Data Analysis: Hypothesis Testing</li>
-        <li>Scholarship of Teaching and Learning in STEM</li>
-        <li>Web Application Architecture</li>
-        <li> Blockchain Technology</li>
+            </div>
+            <div class="column">
+                <li>Network Security</li>
+                <li>Information Security</li>
+                <li>Scientific Paper Writing</li>
+                <li>Vocational Orientation in STEM Teaching</li>
+                <li> Database Development Life Cycle</li>
+                <li>Data Analysis: Hypothesis Testing</li>
+                <li>Scholarship of Teaching and Learning in STEM</li>
+                <li>Web Application Architecture</li>
+                <li> Blockchain Technology</li></div>
+        </div>
+        
+        
     </ol> 
        and so on. Overall, I possess a strong passion for technology,
       a drive for continuous learning, and a commitment to delivering high-quality results. I am a proactive problem solver, able to work
